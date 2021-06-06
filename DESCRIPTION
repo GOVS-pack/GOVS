@@ -1,0 +1,13 @@
+Package: GOVS
+Title: Genome optimization via virtual simulation
+Version: 1.0
+Author: Qian Cheng, Shuqin Jiang and Xiangfeng Wang
+Maintainer: Qian Cheng <qchengray@gmail.edu>
+Depends: R (>= 3.6.0), rrBLUP, lsmeans, readr, pbapply, ggplot2, pheatmap
+Imports: grid, stats, scales
+Description: GOVS is an integrative R package for maize breeding that streamlines genome optimization via virtual simulation achieve guidance of lines selection and population development. GOVS describes a promising strategy that can help breeders to select materials in a purposeful and directional manner, with the purpose of enabling breeders to combine others technologies with rapidly genetic gain benefit by genome optimization.
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+License: GPL-3
