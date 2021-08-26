@@ -1,7 +1,7 @@
 ## function 2 : extract optimization genome according to function 1(design results) 
 #============================== extract optimization genome parameters
-# hmp: hapmap data for candidate population 
-# ID: character array, if NULL, the hapmap including header, if not,provided ID
+# hmp: hapmap data for candidate population, SNP rs must coded with pattern "chr[0-9].s_[0-9]*" (eg: chr1.s_4831, "1" for chromosome, "4831" for locus). 
+# ID: character array, if NULL, the hapmap including header, if not, provided ID
 # designInfo: data frame,function1 design results
 # output: output file prefix
 #' @export extractGenome
@@ -81,7 +81,7 @@ extractGenome <- function(hmp,binsInfo,ID = NULL,designInfo,output = NULL,bins,e
     pb = txtProgressBar(min = 0, max = nrow(binsInfo), initial = 0,style=3) 
     
     k <- 0
-    for (i in 1:10) {
+    for (i in as.numeric(names(table(binsInfo[,2])))) {
       snp.sub <- subset(SNP.info,SNP.info[,2] == i)
       bin.sub <- subset(bin.info,bin.info[,2] == i)
       G.sub <- subset(G,as.numeric(G[,3]) == i)
