@@ -33,5 +33,5 @@ install.packages("DownloadPath/GOVS_1.0.tar.gz")
 * GOVS Homepage: https://govs-pack.github.io/
 * QuickStart: https://govs-pack.github.io/QuickStart/
 * Tutorial: https://govs-pack.github.io/Tutorial/
-* Reference Manual: https://github.com/GOVS-pack/GOVS/blob/master/GOVS-User-Manual.pdf
+* Reference Manual: https://github.com/GOVS-pack/GOVS/blob/master/GOVS-Reference-Manual.pdf
 * Download: https://github.com/GOVS-pack/GOVS/raw/master/GOVS_1.0.tar.gz
