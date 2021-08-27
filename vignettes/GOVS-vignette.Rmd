@@ -118,7 +118,7 @@ GOVS_res$statRes
 <center>Figure1 Statistic summary of GOVS</center><br/>
 
 ## Genotytpe-to-phenotype prediciton (rrBLUP) {#G2P}
-This function performs genotpye-to-phenotype prediciton via ridge regression best linear unbiased prediction (rrBLUP) model (Endelman, 2011). The inputs is genotypeic data.
+This function performs genotpye-to-phenotype prediciton via ridge regression best linear unbiased prediction (rrBLUP) model ([Endelman, 2011](#reference)). The inputs is genotypeic data.
 ```{r include=TRUE,echo=TRUE,message=FALSE}
 ## load hapmap data (genomic data) of MZ hybrids
 data(MZ)
@@ -147,7 +147,7 @@ plot(phe$EW[idx2],predRes,xlab = "Observed value", ylab =  "Predicted value")
 [Back to Contents](#contents)
 
 ## Construct bin map {#binmap}
-IBD map was constructed of contributions from the parents onto the progeny lines discribed by Liu __et al.__ (Liu _et al._, 2020) based hidden Markov model (HMM) . Here we take chromosome-10 of one offspring as an example.
+IBD map was constructed of contributions from the parents onto the progeny lines discribed by Liu __et al.__ ([Liu _et al._, 2020](#reference)) based hidden Markov model (HMM) ([Mott _et al_, 2000](#reference)). Here we take chromosome-10 of one offspring as an example.
 ```{r eval=FALSE,echo=T}
 ## load example data
 data(IBDTestData)
@@ -228,7 +228,7 @@ mosaicPlot(bins = bins,binsInfo = binsInfo,chr = 1,resolution = 500,
 
 [Back to Contents](#contents)
 
-### References
+### References {#reference}
 Endelman, J. B. (2011). Ridge regression and other kernels for genomic selection with R package rrBLUP. _The plant genome_, _4_(3)
 https://doi.org/10.3835/plantgenome2011.08.0024 <br/><br/>
 
