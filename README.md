@@ -13,11 +13,6 @@ __GOVS__ (**G**enome **O**ptimization via **V**irtual **S**imulation) is an inte
   Overview of GOVS
 </div>
 
-## Links
-* GOVS Homepage: https://govs-pack.github.io/
-* QuickStart: https://govs-pack.github.io/QuickStart/
-* Tutorial: https://govs-pack.github.io/Tutorial/
-* Reference Manual: 
 ## Installation
 1.  Github install
 ```R
@@ -34,3 +29,9 @@ install_github("GOVS-pack/GOVS",build_vignettes = TRUE)
 install.packages(c("ggplot2","rrBLUP","lsmeans","readr","pbapply","pheatmap","emmeas"))
 install.packages("DownloadPath/GOVS_1.0.tar.gz")
 ```
+## Links
+* GOVS Homepage: https://govs-pack.github.io/
+* QuickStart: https://govs-pack.github.io/QuickStart/
+* Tutorial: https://govs-pack.github.io/Tutorial/
+* Reference Manual: https://github.com/GOVS-pack/GOVS/blob/master/GOVS-User-Manual.pdf
+* Download: https://github.com/GOVS-pack/GOVS/raw/master/GOVS_1.0.tar.gz
