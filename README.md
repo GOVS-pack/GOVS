@@ -17,7 +17,7 @@ __GOVS__ (**G**enome **O**ptimization via **V**irtual **S**imulation) is an inte
 1.  Github install
 ```R
 ## install dependencies and GOVS
-install.packages(c("ggplot2","rrBLUP","lsmeans","readr","pbapply","pheatmap","emmeas"))
+install.packages(c("ggplot2","rrBLUP","lsmeans","readr","pbapply","pheatmap","emmeans"))
 require("devtools")
 install_github("GOVS-pack/GOVS") 
 ## if you want build vignette in GOVS 
@@ -26,7 +26,7 @@ install_github("GOVS-pack/GOVS",build_vignettes = TRUE)
 2.  Download [.tar.gz package](https://github.com/GOVS-pack/GOVS/raw/master/GOVS_1.0.tar.gz) and install <br/>
 ```R
 ## install dependencies and GOVS with bult-in vignette
-install.packages(c("ggplot2","rrBLUP","lsmeans","readr","pbapply","pheatmap","emmeas"))
+install.packages(c("ggplot2","rrBLUP","lsmeans","readr","pbapply","pheatmap","emmeans"))
 install.packages("DownloadPath/GOVS_1.0.tar.gz")
 ```
 ## Links
